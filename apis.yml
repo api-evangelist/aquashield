@@ -1,7 +1,30 @@
 aid: aquashield
-name: Aquashield
-description: Aquashield is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aquashield.png
+name: AquaShield
+description: >-
+  AquaShield is a Y Combinator-backed (Spring 2026 / P26 batch) startup building
+  AI-driven water leak detection for buildings and large real estate portfolios.
+  Non-invasive sensors clamp onto existing pipes in minutes with no pipe cutting,
+  retrofits, or downtime; the platform learns each building's normal water-flow
+  patterns and flags anomalies in real time before they escalate into costly
+  damage. Water damage is the largest preventable loss in real estate — more than
+  fire and theft combined. Founded by former MIT and Harvard/EPFL robotics
+  researchers Paul Beckers (CEO) and Marguerite Benoist (CTO), the company is based
+  in San Francisco and works with some of the largest residential portfolios in the
+  world. This profile was surfaced as a Y Combinator portfolio company and added to
+  the API Evangelist network; AquaShield currently publishes a marketing site only
+  and does not yet expose a public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/aquashield/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Water
+- Leak Detection
+- IoT
+- Sensors
+- Real Estate
+- PropTech
+- Artificial Intelligence
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://aquashieldai.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aquashieldai
+- type: DomainSecurity
+  url: security/aquashield-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
