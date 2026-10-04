@@ -52,7 +52,7 @@ tags:
 - Leak Detection
 - IoT
 - Sensors
-- Real-Estate
+- Real Estate
 - PropTech
 - Artificial Intelligence
 - Y Combinator
@@ -66,6 +66,7 @@ tags_raw:
 - PropTech
 - Artificial Intelligence
 - Y Combinator
+- Real-Estate
 apis: []
 common:
 - type: Website
